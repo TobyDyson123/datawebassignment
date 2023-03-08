@@ -1,0 +1,26 @@
+.nav-container {
+    height: 75px;
+    color: #111111;
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr; 
+    grid-template-rows: 75px; 
+    gap: 0px 0px; 
+    grid-template-areas: 
+        ". . ."; 
+}
+
+.logo-container {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.logo-container img {
+    max-height: 80%;
+}
+
+.admin-container {
+    text-align: right;
+    padding-right: 40px;
+    padding-top: 25px;
+}
