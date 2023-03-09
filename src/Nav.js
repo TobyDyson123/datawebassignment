@@ -1,4 +1,5 @@
 import logo from './images/logos/logo-black-small-transparent.png'
+import { Link } from "react-router-dom";
 
 function Nav() {
     return (
@@ -11,7 +12,7 @@ function Nav() {
                     <span></span>
                 </div>
                 <div className="admin-container">
-                    <u>Admin Login</u>
+                    <Link to="/login"><u>Admin Login</u></Link>
                 </div>
             </div>
         </div>
