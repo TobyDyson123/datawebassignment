@@ -1,6 +1,9 @@
+import Nav from './Nav.js';
+
 function Home() {
     return (
         <div className="home">
+            <Nav />
             <div className="home-container">
                 <div className="search-container">
                     <div className="search-box">
