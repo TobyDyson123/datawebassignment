@@ -9,6 +9,10 @@
         ". . ."; 
 }
 
+.nav-container a:link {
+    color: #111111;
+}
+
 .logo-container {
     display: flex;
     justify-content: left;
@@ -23,4 +27,8 @@
     text-align: right;
     padding-right: 40px;
     padding-top: 25px;
+}
+
+.admin-container a {
+    padding: 10px 0px;
 }

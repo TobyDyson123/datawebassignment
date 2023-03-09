@@ -80,10 +80,10 @@ function Home() {
                                 
                                 <input type="checkbox" id="silver" name="silver" value="1"></input>
                                 <label for="silver"> Silver</label>
-
+                                <br></br>
                                 <input type="checkbox" id="white" name="white" value="1"></input>
                                 <label for="white"> White</label>
-                                <br></br>
+                                
                                 <input type="checkbox" id="yellow" name="yellow" value="1"></input>
                                 <label for="yellow"> Yellow</label>
 
